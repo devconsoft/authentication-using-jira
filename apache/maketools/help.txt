@@ -1,0 +1,12 @@
+
+    help            Print this help.
+
+    build-image     Build docker image for compiling apache plugin.
+    cwdapache       Build apache plugin.
+
+    deploy-image    Build docker image with apache server and the plugin.
+    run             Start apache docker container.
+                    Specify:
+                    APPLICATION_NAME, APPLICATION_PASSWORD,
+                    JIRA_GROUP, JIRA_SERVER
+    stop            Stop apache docker container.
