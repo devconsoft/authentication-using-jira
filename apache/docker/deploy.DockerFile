@@ -10,7 +10,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 ENV APACHE_PID_FILE /var/run/apache2/apache2.pid
 ENV APACHE_SERVER_NAME localhost
 
-LABEL description="Apache2.4 on Ubuntu 18.04 with Single Sign-On integration with Atlassian Crowd/JIRA."
+LABEL description="Apache2.4 on Ubuntu 18.04 with Atlassian Crowd/JIRA Authentication plugin."
 
 EXPOSE 80
 
